@@ -1,0 +1,13 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "app-b4dcf7bd-bf5f-424a-974f-aeffe48249d7",
+        "url": "http://google.com",
+        "uuid": "app-b4dcf7bd-bf5f-424a-974f-aeffe48249d7",
+        "saveWindowState": false,
+        "autoShow": true
+    },
+    "runtime": {
+        "version": "stable"
+    }
+}

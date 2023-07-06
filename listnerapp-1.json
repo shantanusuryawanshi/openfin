@@ -1,0 +1,29 @@
+
+
+{
+    "devtools_port": 9090,
+    "licenseKey": "request-a-key",
+    "startup_app": {
+      "name": "OpenFin FDC3 Grid Listener",
+      "description": "Publishes instrument selection from a grid",
+      "url": "http://localhost:3002/",
+      "uuid": "ag-grid-fdc3-listener",
+      "autoShow": true,
+      "applicationIcon": "https://cyhir.csb.app/favicon.ico",
+      "api": {
+        "iframe": {
+          "crossOriginInjection": true,
+          "sameOriginInjection": true
+        }
+      }
+    },
+    "services": [
+      {
+        "name": "fdc3"
+      }
+    ],
+    "runtime": {
+      "version": "stable"
+    }
+  }
+  

@@ -1,0 +1,31 @@
+
+
+  {
+    "devtools_port": 3000,
+    "licenseKey": "request-a-key",
+    "startup_app": {
+      "name": "my-app",
+      "description": "Publishes instrument selection from a grid which raises an intent",
+      "url": "https://finlabs-dev.synechron.net/",
+      "uuid": "test-app",
+      "autoShow": true,
+      "applicationIcon": "https://cyhir.csb.app/favicon.ico",
+      "api": {
+        "iframe": {
+          "crossOriginInjection": true,
+          "sameOriginInjection": true
+        }
+      }
+    },
+    "services": [
+      {
+        "name": "fdc3"
+      }
+    ],
+    "runtime": {
+      "version": "stable"
+    }
+  }
+  
+  
+  

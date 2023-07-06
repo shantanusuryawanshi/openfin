@@ -1,0 +1,29 @@
+
+
+  {
+    "devtools_port": 3003,
+    "licenseKey": "request-a-key",
+    "startup_app": {
+      "name": "Openrid Listener",
+      "description": "Publishes instrument selection from a grid",
+      "url": "http://172.20.236.166:3003/",
+      "uuid": "ag-listener",
+      "autoShow": true,
+      "applicationIcon": "https://cyhir.csb.app/favicon.ico",
+      "api": {
+        "iframe": {
+          "crossOriginInjection": true,
+          "sameOriginInjection": true
+        }
+      }
+    },
+    "services": [
+      {
+        "name": "fdc3"
+      }
+    ],
+    "runtime": {
+      "version": "stable"
+    }
+  }
+  
